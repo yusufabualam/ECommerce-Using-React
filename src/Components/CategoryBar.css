@@ -1,0 +1,13 @@
+.nav-link {
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  .navbar-nav {
+    max-width: calc(100% - 120px); /* Adjust the max-width as needed */
+    flex-wrap: wrap;
+  }
+@media (max-width: 991px) {
+    .navbar-nav {
+      flex-wrap: wrap;
+      max-width: 100%;
+    }
+  }
